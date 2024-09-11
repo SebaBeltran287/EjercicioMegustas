@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #333;
+    color: white;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1000px;
+    align-items: center;
+}
+
+.perfil {
+    width: 20%;
+    text-align: center;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 200px;
+    justify-content: center;
+}
+
+.perfil-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.perfil p {
+    font-weight: bold;
+}
+
+.feed {
+    width: 100%;
+}
+
+.feed h2 {
+    margin-bottom: 20px;
+}
+
+.posteo {
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posteo-contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.posteo h3 {
+    margin-bottom: 5px;
+}
+
+.posteo p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.megusta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.btn-like {
+    background-color: yellow;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bolder;
+    height: 30px;
+}
+
+
